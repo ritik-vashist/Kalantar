@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Kalantar Art</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style_signup.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container h-100">
+        <div class="login_name_wrapper">
+            <div class="d-flex justify-content-center">Kalantar Art</div>
+        </div>
+    <div class="d-flex justify-content-center h-50" >
+        <div class="user_card">
+            <div class="d-flex justify-content-center">
+                <div class="login_logo_container"> <a href="index.html"><img src="./Logo.png" class="login_logo" alt="Logo"> </a></div>
+            </div>
+            <div class="d-flex justify-content-center form_container">
+                <form style="width: 320px">
+                    <br/>
+                <div class="d-flex justify-content-center"><b>Sign Up</b></div> 
+                <br/>   
+                    <div id="msgcont" class="d-flex justify-content-center" style="display:none!important">
+                        <div id="msg" class="alert alert-danger py-1 px-2" role="alert"></div>
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-user"></i></span> </div>
+                        <input id="fname" type="text" name="" class="form-control input_user" placeholder="First name" required>
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-user"></i></span> </div>
+                        <input id="mname" type="text" name="" class="form-control input_user" placeholder="Middle name" required>
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-user"></i></span> </div>
+                        <input id="lname" type="text" name="" class="form-control input_user" placeholder="Last name" required>
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-envelope"></i></span> </div>
+                        <input id="email" type="text" name="" class="form-control input_user" placeholder="Email" required>
+                    </div>
+                    <div class="btn btn-sm otp">
+                    <div class="d-flex justify-content-center mt-4 login_container">
+                        <button type="button" name="button" class="btn login_btn">Send OTP</button>
+                    </div>
+                    <br />
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-mobile"></i></span> </div>
+                        <input id="email-otp" type="text" name="" class="form-control input_user" placeholder="Enter your email OTP" required>
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-key"></i></span> </div>
+                        <input id="phone" type="text" name="" class="form-control input_user" placeholder="Mobile Number" required>
+                    </div>
+                    <div class="btn btn-sm otp" >
+                        <div class="d-flex justify-content-center mt-4 login_container">
+                            <button type="button" name="button" class="btn login_btn">Send OTP</button>
+                    </div>
+                    <br />
+                </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-key"></i></span> </div>
+                        <input id="phone-otp" type="text" name="" class="form-control input_user" placeholder="Enter your phone OTP" required>
+                    </div>
+
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-key"></i></span> </div>
+                        <input id="pass" type="password" name="" class="form-control input_pass" placeholder="Password" required>
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-key"></i></span> </div>
+                        <input id="cat" type="cpassword" name="" class="form-control input_pass" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="input-group mb-4">
+                    <label for="category">Choose your category:</label>
+                    <div class="mainselection">
+                        <select id="category" name="category">
+                            <option value="school">School student</option>
+                            <option value="saab">Pro Artist</option>
+                            <option value="fiat">Others</option>
+                          </select>    
+                    </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3 login_container">
+                        <a href="index.html">
+                        <button type="button" name="button" class="btn login_btn">Sign Up</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js'></script>
+</body>
+</html>

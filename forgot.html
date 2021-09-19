@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Kalantar Art</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container h-100">
+        <div class="login_name_wrapper">
+            <div class="d-flex justify-content-center">Kalantar Art</div>
+        </div>
+    <div class="d-flex justify-content-center h-50" >
+        <div class="user_card">
+            <div class="d-flex justify-content-center">
+                <div class="login_logo_container"><a href="index.html"><img src="./Logo.png" class="login_logo" alt="Logo"> </a></div>
+            </div>
+            <div class="d-flex justify-content-center form_container">
+                <form style="width: 320px">
+                    <div class="d-flex justify-content-center">Forgot Password</div>
+                    <br>
+                    <div id="msgcont" class="d-flex justify-content-center" style="display:none!important">
+                        <div id="msg" class="alert alert-danger py-1 px-2" role="alert"></div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-envelope"></i></span> </div>
+                        <input id="email" type="text" name="" class="form-control input_user" placeholder="Enter registered E-mail address" required>
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-append"> <span class="input-group-text"><i class="fas fa-phone"></i></span> </div>
+                        <input id="pass" type="password" name="" class="form-control input_pass" placeholder="Enter registered Mobile Number" required>
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-3 login_container">
+                        <a href="otp_forgot.html">
+                        <button type="button" name="button" class="btn login_btn">Send OTP</button>
+                    </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js'></script>
+</body>
+</html>

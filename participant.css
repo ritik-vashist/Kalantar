@@ -1,0 +1,13 @@
+body{
+    background-color: #e4e4e4;
+    background-image: linear-gradient(to bottom, #ed88b0, #ed88b0 300px, #e4e4e4 300px, #e4e4e4)!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+  }
+img{
+    height: 20%;
+    width: 20%;
+}
+.brand{
+    float:left;
+}
